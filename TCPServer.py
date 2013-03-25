@@ -2,7 +2,7 @@
 from socket import *
 import datetime
 import threading
-serverPort = 13010
+serverPort = 12000
 serverSocketBase = socket(AF_INET,SOCK_STREAM)
 serverSocketBase.bind(('',serverPort))
 serverSocketBase.listen(1)

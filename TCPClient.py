@@ -2,7 +2,7 @@
 from socket import *
 #from time import clock
 serverName = 'localhost'
-serverPortBase = 13010
+serverPortBase = 12000
 command = "getSocket"
 clientSocket = socket(AF_INET,SOCK_STREAM)
 clientSocket.connect((serverName, serverPortBase))
