@@ -1,0 +1,21 @@
+ESE 548 Project1
+Amod Mulay
+id# 109017301
+
+Notes:
+1. These scripts are designed to be used with python3 and will NOT work with python2.   
+2. The programs donot take command line arguments hence the server ip address has to be entered into the script manually.
+3. The server script assumes that it has maxClient no. of sockets free consecutively starting from serverPortBase
+4. The "server exit" command is broken for the multi-threaded version of the scripts
+5. project1_bak contains the basic version of the scripts but only support 1 client per server. Usage instructions for them is the same as the multi-threaded version.
+6. The maximum number of supported clients can be specified by modifying the maxClient variable (default set to 5)
+7. The current multi-threading implementation is very crude, inefficient and not secure 
+
+USAGE INSTRUCTIONS
+1. ./TCPServer.py  #assumes that /usr/bin/python points to python3 binary
+    or run "python3 TCPServer.py"
+2. ./TCPClient.py  or "python3 TCPClient.py"
+3. enter multiple commands as you wish. To see a list of supported commands type "help"
+4. to exit client type "quit"
+5. you can try using the client script from multiple machines but the sever ip has to be specified( default is localhost)
+  
